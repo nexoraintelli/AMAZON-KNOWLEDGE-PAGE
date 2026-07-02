@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon.com SEO Knowledge Base</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h1>Amazon.com<br><span>SEO Library</span></h1>
+
+    <nav>
+      <button class="nav-item active" data-section="home">Home</button>
+      <button class="nav-item" data-section="dictionary">Dictionary</button>
+      <button class="nav-item" data-section="seo">Amazon SEO</button>
+      <button class="nav-item" data-section="pdp">PDP Anatomy</button>
+      <button class="nav-item" data-section="keywords">Keyword Research</button>
+      <button class="nav-item" data-section="checklist">SEO Checklist</button>
+      <button class="nav-item" data-section="google-vs-amazon">Google vs Amazon</button>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <header class="topbar">
+      <input type="text" id="searchInput" placeholder="Search Amazon terms, SEO concepts, metrics..." />
+    </header>
+
+    <section id="home" class="section active">
+      <h2>Amazon.com SEO Knowledge Base</h2>
+      <p>
+        A practical learning hub for professionals transitioning from Google SEO to Amazon.com SEO.
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Start Here</h3>
+          <p>Understand the foundations of Amazon.com, Seller Central, PDPs and marketplace logic.</p>
+        </div>
+
+        <div class="card">
+          <h3>Amazon SEO</h3>
+          <p>Learn how relevance, conversion, sales velocity and content impact organic ranking.</p>
+        </div>
+
+        <div class="card">
+          <h3>Dictionary</h3>
+          <p>Search key Amazon terms like ASIN, Buy Box, BSR, A+ Content, FBA and Backend Keywords.</p>
+        </div>
+
+        <div class="card">
+          <h3>SEO Checklist</h3>
+          <p>Use practical checklists to analyze titles, bullets, backend keywords and PDP quality.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="dictionary" class="section">
+      <h2>Amazon Dictionary</h2>
+      <div id="dictionaryList" class="dictionary-list"></div>
+    </section>
+
+    <section id="seo" class="section">
+      <h2>Amazon SEO</h2>
+
+      <article class="article">
+        <h3>What is Amazon SEO?</h3>
+        <p>
+          Amazon SEO is the process of optimizing a product listing to improve its visibility,
+          relevance and conversion potential inside Amazon search results.
+        </p>
+
+        <h3>Core Ranking Logic</h3>
+        <ul>
+          <li><strong>Relevance:</strong> how well the product matches the search query.</li>
+          <li><strong>Performance:</strong> how well the product converts after being seen.</li>
+          <li><strong>Sales Velocity:</strong> how consistently the product generates sales.</li>
+          <li><strong>Customer Experience:</strong> reviews, ratings, price, availability and fulfillment.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="pdp" class="section">
+      <h2>PDP Anatomy</h2>
+
+      <div class="pdp-grid">
+        <div class="pdp-box">Title</div>
+        <div class="pdp-box">Main Image</div>
+        <div class="pdp-box">Price</div>
+        <div class="pdp-box">Rating</div>
+        <div class="pdp-box">Reviews</div>
+        <div class="pdp-box">Bullet Points</div>
+        <div class="pdp-box">Variations</div>
+        <div class="pdp-box">A+ Content</div>
+        <div class="pdp-box">Backend Keywords</div>
+        <div class="pdp-box">Buy Box</div>
+      </div>
+    </section>
+
+    <section id="keywords" class="section">
+      <h2>Keyword Research</h2>
+
+      <article class="article">
+        <h3>Keyword Types</h3>
+        <ul>
+          <li><strong>Main Keyword:</strong> the primary term that describes the product.</li>
+          <li><strong>Secondary Keywords:</strong> supporting terms related to features, use cases or audience.</li>
+          <li><strong>Long-tail Keywords:</strong> more specific queries with clearer purchase intent.</li>
+          <li><strong>Competitor Keywords:</strong> terms competitors rank for or advertise on.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="checklist" class="section">
+      <h2>SEO Checklist</h2>
+
+      <div class="checklist">
+        <h3>Title</h3>
+        <label><input type="checkbox"> Includes main keyword</label>
+        <label><input type="checkbox"> Includes product type</label>
+        <label><input type="checkbox"> Includes key attribute or benefit</label>
+        <label><input type="checkbox"> Is clear and readable</label>
+
+        <h3>Bullet Points</h3>
+        <label><input type="checkbox"> Highlights benefits, not only features</label>
+        <label><input type="checkbox"> Answers customer objections</label>
+        <label><input type="checkbox"> Includes secondary keywords naturally</label>
+
+        <h3>Backend Keywords</h3>
+        <label><input type="checkbox"> No repeated keywords</label>
+        <label><input type="checkbox"> No competitor brands</label>
+        <label><input type="checkbox"> No prohibited claims</label>
+      </div>
+    </section>
+
+    <section id="google-vs-amazon" class="section">
+      <h2>Google SEO vs Amazon SEO</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Google SEO</th>
+            <th>Amazon SEO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Search intent can be informational</td>
+            <td>Search intent is usually transactional</td>
+          </tr>
+          <tr>
+            <td>Backlinks are important</td>
+            <td>Sales performance is more important</td>
+          </tr>
+          <tr>
+            <td>Content depth matters</td>
+            <td>Conversion-focused clarity matters</td>
+          </tr>
+          <tr>
+            <td>Optimizes pages and articles</td>
+            <td>Optimizes product detail pages</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
