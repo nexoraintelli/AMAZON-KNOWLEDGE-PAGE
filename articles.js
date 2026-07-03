@@ -329,7 +329,7 @@ Every interaction—from a click to a completed purchase—generates data that h
 </ul>
 
 `
-}
+},
   {
     id: "amazon-marketplace",
     title: "What is Amazon Marketplace?",
