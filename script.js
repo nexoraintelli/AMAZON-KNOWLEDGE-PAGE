@@ -84,6 +84,15 @@ function renderCategory(category) {
   `;
 }
 
+function createSlug(text) {
+  return text
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^\w\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+}
+
 function renderArticleById(id) {
   const article = articles.find(item => item.id === id);
 
@@ -95,21 +104,53 @@ function renderArticleById(id) {
 
   pageTitle.textContent = article.title;
 
+  const tempDiv = document.createElement("div");
+  tempDiv.innerHTML = article.content;
+
+  const headings = tempDiv.querySelectorAll("h2");
+
+  headings.forEach(heading => {
+    const slug = createSlug(heading.textContent);
+    heading.id = slug;
+  });
+
+  const tocLinks = Array.from(headings).map(heading => `
+    <a href="#${heading.id}">${heading.textContent}</a>
+  `).join("");
+
   app.innerHTML = `
-    <article class="article">
-      <span class="badge">${article.category}</span>
-      <h3>${article.title}</h3>
+    <div class="article-actions">
+      <button class="back-button" onclick="renderCategory('${article.category}')">
+        ← Back to ${article.category}
+      </button>
+    </div>
 
-      <div class="meta-row">
-        <span class="meta-pill">${article.level}</span>
-        <span class="meta-pill">${article.readTime}</span>
-      </div>
+    <div class="article-layout">
+      <article class="article" id="articleTop">
+        <span class="badge">${article.category}</span>
+        <h3>${article.title}</h3>
 
-      <p>${article.summary}</p>
+        <div class="meta-row">
+          <span class="meta-pill">${article.level}</span>
+          <span class="meta-pill">${article.readTime}</span>
+        </div>
 
-      ${article.content}
-    </article>
+        <p>${article.summary}</p>
+
+        ${tempDiv.innerHTML}
+      </article>
+
+      <aside class="article-toc">
+        <h4>On this page</h4>
+        ${tocLinks || "<p>No sections</p>"}
+        <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+          ↑ Back to top
+        </button>
+      </aside>
+    </div>
   `;
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function renderPage(id) {
