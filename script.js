@@ -72,6 +72,10 @@ function renderCategory(category) {
   const categoryArticles = articles.filter(article => article.category === category);
 
   app.innerHTML = `
+    <div class="article-actions">
+      <button class="back-button" onclick="renderHome()">← Back to Home</button>
+    </div>
+
     <div class="grid grid-2">
       ${categoryArticles.map(article => `
         <div class="card" onclick="renderArticleById('${article.id}')">
@@ -82,6 +86,8 @@ function renderCategory(category) {
       `).join("")}
     </div>
   `;
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function createSlug(text) {
