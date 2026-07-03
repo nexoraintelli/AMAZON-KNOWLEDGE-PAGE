@@ -1,34 +1,335 @@
 const articles = [
   {
     id: "what-is-amazon",
-    title: "What is Amazon?",
+    title: "What Is Amazon?",
     category: "Amazon Ecosystem",
     level: "Beginner",
-    readTime: "6 min",
-    summary: "Understand Amazon as a marketplace, retailer, logistics network, advertising platform and technology ecosystem.",
+    readTime: "8 min",
+    summary: "Understand Amazon as a connected ecosystem of e-commerce, marketplace services, logistics, advertising, subscriptions, cloud computing, and technology.",
     content: `
-      <h3>Definition</h3>
-      <p>Amazon is not just an online store. It is a large technology and commerce ecosystem that includes retail, marketplace selling, fulfillment, advertising, subscriptions, devices, cloud services and business tools.</p>
 
-      <h3>Why It Matters</h3>
-      <p>To work with Amazon, you need to understand that product performance is influenced by many connected systems: catalog, pricing, fulfillment, reviews, advertising, search, inventory and customer experience.</p>
+<h3>Category</h3>
+<p>Amazon Ecosystem</p>
 
-      <h3>How It Works</h3>
-      <p>On Amazon.com, products may be sold directly by Amazon, by third-party sellers, or by brands and vendors. Customers search, compare, click, buy, receive products, leave reviews and often repurchase.</p>
+<h3>Difficulty</h3>
+<p>Beginner</p>
 
-      <h3>Example</h3>
-      <p>A customer searches for “protein powder.” Amazon shows products based on relevance, availability, price, reviews, fulfillment method, advertising and historical performance.</p>
+<h3>Estimated Reading Time</h3>
+<p>8 minutes</p>
 
-      <h3>Related Articles</h3>
-      <ul>
-        <li>Amazon Marketplace</li>
-        <li>Seller Central</li>
-        <li>FBA</li>
-        <li>Advertising</li>
-      </ul>
-    `
-  },
+<h3>Last Updated</h3>
+<p>July 2026</p>
 
+<hr>
+
+<h2>Summary</h2>
+
+<p>
+Amazon is far more than an online retailer. It is one of the world's largest technology companies, operating a connected ecosystem of e-commerce, third-party marketplace services, logistics, advertising, subscriptions, cloud computing, entertainment, devices, and artificial intelligence.
+</p>
+
+<p>
+For brands, sellers, agencies, and customers, Amazon functions as an integrated platform where every service supports the others. A product listing is influenced by search, catalog quality, fulfillment, pricing, customer experience, advertising, inventory, and operational performance. Understanding how these systems work together is the foundation for succeeding on Amazon.
+</p>
+
+<hr>
+
+<h2>Definition</h2>
+
+<p>
+Amazon is a U.S.-based technology company best known for <strong>Amazon.com</strong>, one of the world's largest online marketplaces. However, Amazon's business extends far beyond online retail.
+</p>
+
+<p>Its ecosystem includes:</p>
+
+<ul>
+<li>Amazon.com Marketplace</li>
+<li>First-Party Retail</li>
+<li>Third-Party Marketplace</li>
+<li>Fulfillment by Amazon (FBA)</li>
+<li>Amazon Prime</li>
+<li>Amazon Ads</li>
+<li>Seller Central</li>
+<li>Vendor Central</li>
+<li>Brand Registry</li>
+<li>Physical and online grocery</li>
+<li>Entertainment services</li>
+<li>Consumer devices</li>
+<li>Amazon Web Services (AWS)</li>
+</ul>
+
+<p>
+Within the U.S. marketplace, products can be sold directly by Amazon, by independent third-party sellers through Seller Central, or by manufacturers and brands that sell wholesale to Amazon through Vendor Central.
+</p>
+
+<p>
+Rather than operating as a single online store, Amazon connects buyers, sellers, logistics, technology, and advertising into one integrated commerce ecosystem.
+</p>
+
+<hr>
+
+<h2>Amazon Ecosystem Overview</h2>
+
+<pre>
+                             AMAZON
+
+                                  │
+        ┌─────────────────────────┼─────────────────────────┐
+        │                         │                         │
+   Marketplace                Retail                  Technology
+        │                         │                         │
+ Third-Party Sellers       Amazon Retail               AWS
+ Vendors                   Private Labels              AI
+ Brands                    Grocery                     Alexa
+ Customers                 Physical Stores             Devices
+        │
+        ├─────────────┬──────────────┬──────────────┐
+        │             │              │              │
+ Seller Central      FBA      Brand Registry    Amazon Ads
+</pre>
+
+<p>
+Every major Amazon service contributes to the same goal: delivering a better customer experience while creating opportunities for businesses to grow.
+</p>
+
+<hr>
+
+<h2>Why It Matters</h2>
+
+<p>
+Amazon should not be viewed as a simple e-commerce website. It is a performance-driven ecosystem where multiple systems continuously influence one another.
+</p>
+
+<p>
+For customers, Amazon offers convenience, product selection, competitive pricing, fast delivery, trusted reviews, and a consistent shopping experience.
+</p>
+
+<p>
+For brands and sellers, success depends on much more than listing a product. Product visibility and long-term growth are influenced by:
+</p>
+
+<ul>
+<li>Listing quality</li>
+<li>Search relevance</li>
+<li>Pricing strategy</li>
+<li>Inventory availability</li>
+<li>Fulfillment method</li>
+<li>Customer reviews</li>
+<li>Advertising</li>
+<li>Conversion rate</li>
+<li>Operational performance</li>
+</ul>
+
+<p>
+For advertisers, Amazon has become one of the world's largest retail media platforms. Brands can advertise across Sponsored Ads, Display, Video, Streaming TV, and Amazon DSP to reach customers throughout their shopping journey.
+</p>
+
+<p>
+For Strategists, understanding the Amazon ecosystem is essential because every recommendation should consider how different business areas affect one another.
+</p>
+
+<hr>
+
+<h2>How It Works</h2>
+
+<p>
+Amazon connects <strong>customer demand</strong>, <strong>seller supply</strong>, <strong>logistics infrastructure</strong>, and <strong>data</strong> into a single ecosystem.
+</p>
+
+<pre>
+Customer Need
+
+↓
+
+Amazon Search
+
+↓
+
+Amazon Search & Recommendation Systems
+
+↓
+
+Relevant Products
+
+↓
+
+Product Detail Page (PDP)
+
+↓
+
+Purchase Decision
+
+↓
+
+Order
+
+↓
+
+Fulfillment
+
+↓
+
+Delivery
+
+↓
+
+Customer Review
+
+↓
+
+Performance Data
+
+↓
+
+Future Search Visibility
+</pre>
+
+<p>
+When a customer searches for a product, Amazon evaluates thousands of products based on factors such as relevance, availability, fulfillment, pricing, customer experience, historical performance, and advertising.
+</p>
+
+<p>
+Customers may purchase products sold directly by Amazon, by third-party sellers, or by brands selling through Amazon.
+</p>
+
+<p>
+Every interaction—from a click to a completed purchase—generates data that helps Amazon continuously improve recommendations, search results, and customer experience.
+</p>
+
+<hr>
+
+<h2>How Everything Connects</h2>
+
+<p>Amazon functions as an interconnected system rather than a collection of independent tools.</p>
+
+<ul>
+<li>Catalog quality influences search relevance.</li>
+<li>Search visibility generates traffic.</li>
+<li>Traffic only creates value if the Product Detail Page converts.</li>
+<li>Conversion depends on content, pricing, fulfillment, reviews and customer trust.</li>
+<li>Advertising increases visibility, while customer satisfaction supports long-term growth.</li>
+<li>Inventory health impacts both advertising efficiency and organic ranking.</li>
+</ul>
+
+<hr>
+
+<h2>Key Components</h2>
+
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Purpose</th>
+<th>Primary Users</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Amazon.com</td><td>Main online marketplace</td><td>Customers</td></tr>
+<tr><td>First-Party Retail (1P)</td><td>Amazon buys and resells inventory</td><td>Vendors</td></tr>
+<tr><td>Third-Party Marketplace (3P)</td><td>Sellers sell directly to customers</td><td>Sellers</td></tr>
+<tr><td>Seller Central</td><td>Manage listings and business operations</td><td>Sellers</td></tr>
+<tr><td>Vendor Central</td><td>Wholesale management</td><td>Vendors</td></tr>
+<tr><td>FBA</td><td>Amazon fulfillment service</td><td>Sellers</td></tr>
+<tr><td>FBM</td><td>Merchant fulfillment</td><td>Sellers</td></tr>
+<tr><td>Prime</td><td>Customer membership program</td><td>Customers</td></tr>
+<tr><td>Amazon Ads</td><td>Advertising platform</td><td>Brands</td></tr>
+<tr><td>Brand Registry</td><td>Brand protection and enhanced tools</td><td>Brand Owners</td></tr>
+<tr><td>AWS</td><td>Cloud computing platform</td><td>Businesses</td></tr>
+<tr><td>Reviews & Ratings</td><td>Customer social proof</td><td>Customers</td></tr>
+<tr><td>Buy Box</td><td>Primary purchase option</td><td>Sellers & Customers</td></tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>Examples</h2>
+
+<h3>Emerging Brand</h3>
+
+<p>A skincare brand launches products through Seller Central, uses FBA, creates optimized listings, builds A+ Content and runs Sponsored Products campaigns.</p>
+
+<h3>Large Manufacturer</h3>
+
+<p>A multinational company sells products wholesale through Vendor Central while Amazon becomes the retailer.</p>
+
+<h3>Small Business</h3>
+
+<p>A small business launches its first ASIN, optimizes its listing, collects reviews and scales advertising over time.</p>
+
+<h3>Enterprise Brand</h3>
+
+<p>A global brand combines Sponsored Products, Sponsored Brands, Sponsored Display and Amazon DSP to build awareness and drive long-term growth.</p>
+
+<hr>
+
+<h2>Best Practices</h2>
+
+<ul>
+<li>Think of Amazon as an interconnected ecosystem.</li>
+<li>Optimize for both search relevance and customer conversion.</li>
+<li>Build complete Product Detail Pages.</li>
+<li>Choose the fulfillment strategy that supports profitability.</li>
+<li>Use Brand Registry whenever eligible.</li>
+<li>Monitor inventory health consistently.</li>
+<li>Analyze paid and organic performance together.</li>
+<li>Base decisions on marketplace data and profitability.</li>
+</ul>
+
+<hr>
+
+<h2>Common Mistakes</h2>
+
+<ul>
+<li>Treating Amazon as only an online store.</li>
+<li>Focusing only on keywords.</li>
+<li>Running ads before the PDP is optimized.</li>
+<li>Ignoring inventory management.</li>
+<li>Confusing Seller Central with Vendor Central.</li>
+<li>Assuming Amazon SEO works like Google SEO.</li>
+<li>Looking only at ACOS instead of total business performance.</li>
+</ul>
+
+<hr>
+
+<h2>Did You Know?</h2>
+
+<ul>
+<li>More than 60% of products sold on Amazon come from independent third-party sellers.</li>
+<li>Amazon is one of the world's largest digital advertising companies.</li>
+<li>AWS is one of Amazon's most profitable business segments.</li>
+<li>Prime members typically purchase more frequently than non-members.</li>
+<li>Amazon continuously improves recommendations using marketplace data and customer behavior.</li>
+</ul>
+
+<hr>
+
+<h2>Pro Tip</h2>
+
+<p>
+<strong>Think in systems—not isolated metrics.</strong> Successful Amazon businesses rarely grow because of a single optimization. Long-term success comes from aligning content, pricing, fulfillment, inventory, advertising, customer experience, and operational excellence.
+</p>
+
+<hr>
+
+<h2>Related Articles</h2>
+
+<ul>
+<li>What Is Amazon Marketplace?</li>
+<li>First-Party vs Third-Party Selling</li>
+<li>What Is Seller Central?</li>
+<li>What Is Vendor Central?</li>
+<li>What Is Fulfillment by Amazon (FBA)?</li>
+<li>What Is Amazon Prime?</li>
+<li>How Amazon Search Works</li>
+<li>What Is the Buy Box?</li>
+<li>Introduction to Amazon Ads</li>
+<li>Amazon SEO Basics</li>
+<li>Amazon Account Health Basics</li>
+</ul>
+
+`
+}
   {
     id: "amazon-marketplace",
     title: "What is Amazon Marketplace?",
