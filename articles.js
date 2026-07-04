@@ -882,31 +882,385 @@ When diagnosing Marketplace performance, ask:
 `
 },
 
-  {
-    id: "seller-vs-vendor",
-    title: "Seller vs Vendor",
-    category: "Amazon Ecosystem",
-    level: "Beginner",
-    readTime: "6 min",
-    summary: "Understand the difference between third-party sellers and first-party vendors.",
-    content: `
-      <h3>Definition</h3>
-      <p>A seller usually operates as a third-party seller, also called 3P. A vendor usually sells products wholesale to Amazon, also called 1P.</p>
+ {
+  id: "seller-vs-vendor",
+  title: "Seller vs Vendor",
+  category: "Amazon Ecosystem",
+  level: "Beginner",
+  readTime: "9 min",
+  summary: "Learn the difference between the Seller model, also known as 3P, and the Vendor model, also known as 1P, on Amazon.",
+  content: `
 
-      <h3>Why It Matters</h3>
-      <p>The selling model changes who controls pricing, inventory, listing content, advertising access and operational decisions.</p>
+<h3>Category</h3>
+<p>Amazon Ecosystem</p>
 
-      <h3>How It Works</h3>
-      <p>In a seller model, the brand or merchant sells directly to customers through Amazon. In a vendor model, Amazon buys products from the vendor and resells them to customers.</p>
+<h3>Difficulty</h3>
+<p>Beginner</p>
 
-      <h3>Example</h3>
-      <p>A 3P seller may control its listing, pricing and inventory inside Seller Central. A 1P vendor may work through Vendor Central and sell inventory wholesale to Amazon.</p>
+<h3>Estimated Reading Time</h3>
+<p>9 minutes</p>
 
-      <h3>Pro Tip</h3>
-      <p>When analyzing an account, always confirm whether the business is seller-side, vendor-side or hybrid before recommending actions.</p>
-    `
-  },
+<h3>Last Updated</h3>
+<p>July 2026</p>
 
+<hr>
+
+<h2>Summary</h2>
+
+<p>
+On Amazon, there are two main ways a brand can sell products: as a <strong>Seller</strong> or as a <strong>Vendor</strong>.
+</p>
+
+<p>
+A Seller uses Seller Central and sells products directly to customers through Amazon Marketplace. This is known as the third-party model, or <strong>3P</strong>.
+</p>
+
+<p>
+A Vendor uses Vendor Central and sells products wholesale to Amazon. Amazon then resells those products to customers. This is known as the first-party model, or <strong>1P</strong>.
+</p>
+
+<p>
+The difference matters because each model changes who controls pricing, inventory, fulfillment, customer relationship, profitability, advertising strategy, and operational responsibility.
+</p>
+
+<hr>
+
+<h2>Definition</h2>
+
+<p>
+A <strong>Seller</strong> is a business or individual that sells directly to customers on Amazon through Seller Central.
+</p>
+
+<p>
+A <strong>Vendor</strong> is a brand, manufacturer, or distributor that sells products wholesale to Amazon through Vendor Central. Vendor Central is invitation-only. In this model, Amazon buys the inventory from the vendor and becomes the retailer.
+</p>
+
+<p>
+In simple terms: <strong>Seller = sells to the customer. Vendor = sells to Amazon.</strong>
+</p>
+
+<hr>
+
+<h2>Seller vs Vendor Overview</h2>
+
+<pre>
+AMAZON SELLING MODELS
+
+|
++-- Seller Central (3P Model)
+|   +-- Seller sells to customer
+|   +-- Seller controls offer
+|   +-- Seller manages pricing
+|   +-- Seller uses FBA or FBM
+|
++-- Vendor Central (1P Model)
+    +-- Vendor sells to Amazon
+    +-- Amazon controls retail offer
+    +-- Amazon manages retail pricing
+    +-- Customer buys from Amazon
+</pre>
+
+<p>
+Both models can place products on Amazon.com, but the business structure behind the sale is very different.
+</p>
+
+<hr>
+
+<h2>Why It Matters</h2>
+
+<p>
+Understanding Seller vs Vendor is essential because the model determines how a brand operates on Amazon.
+</p>
+
+<p>
+For sellers, the main advantage is control. Sellers usually control retail price, inventory, content strategy, advertising, promotions, and assortment decisions.
+</p>
+
+<p>
+For vendors, the main advantage is wholesale scale. Amazon places purchase orders, buys inventory, and becomes responsible for reselling the product.
+</p>
+
+<p>
+For Strategists, the difference is critical because the diagnosis changes depending on the model.
+</p>
+
+<h3>A Seller Central issue may involve:</h3>
+<ul>
+<li>Buy Box eligibility</li>
+<li>FBA or FBM performance</li>
+<li>Account health</li>
+<li>Pricing strategy</li>
+<li>Inventory availability</li>
+<li>Listing optimization</li>
+<li>Ad efficiency</li>
+<li>Profitability after Amazon fees</li>
+</ul>
+
+<h3>A Vendor Central issue may involve:</h3>
+<ul>
+<li>Purchase orders</li>
+<li>Wholesale margins</li>
+<li>Retail pricing controlled by Amazon</li>
+<li>Chargebacks</li>
+<li>Forecasting</li>
+<li>Amazon retail availability</li>
+<li>Vendor terms</li>
+<li>Retail contribution and profitability</li>
+</ul>
+
+<hr>
+
+<h2>How It Works</h2>
+
+<h3>Seller Central</h3>
+
+<p>
+In Seller Central, the brand or seller lists products on Amazon Marketplace and sells directly to customers.
+</p>
+
+<pre>
+Seller Creates Listing
+
+↓
+
+Seller Sets Retail Price
+
+↓
+
+Customer Buys on Amazon
+
+↓
+
+Seller Fulfills via FBA or FBM
+
+↓
+
+Amazon Deducts Fees
+
+↓
+
+Seller Receives Payment
+
+↓
+
+Seller Manages Performance
+</pre>
+
+<p>
+Sellers can choose between FBA, where Amazon handles fulfillment, or FBM, where the seller handles storage, shipping, and customer service.
+</p>
+
+<h3>Vendor Central</h3>
+
+<p>
+In Vendor Central, the brand sells products wholesale to Amazon.
+</p>
+
+<pre>
+Amazon Sends Purchase Order
+
+↓
+
+Vendor Ships Inventory to Amazon
+
+↓
+
+Amazon Owns the Inventory
+
+↓
+
+Amazon Sets Retail Price
+
+↓
+
+Customer Buys from Amazon
+
+↓
+
+Amazon Fulfills the Order
+
+↓
+
+Vendor Gets Paid Based on Vendor Terms
+</pre>
+
+<p>
+In this model, Amazon becomes the retailer. The customer usually sees the offer as sold by Amazon.
+</p>
+
+<hr>
+
+<h2>Key Components</h2>
+
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Seller Central</th>
+<th>Vendor Central</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Model</td><td>Third-party, 3P</td><td>First-party, 1P</td></tr>
+<tr><td>Relationship</td><td>Seller sells to customers</td><td>Vendor sells wholesale to Amazon</td></tr>
+<tr><td>Access</td><td>Open registration for eligible businesses</td><td>Invitation-only</td></tr>
+<tr><td>Platform</td><td>Seller Central</td><td>Vendor Central</td></tr>
+<tr><td>Retail Price Control</td><td>Usually controlled by seller</td><td>Usually controlled by Amazon</td></tr>
+<tr><td>Inventory Ownership</td><td>Seller owns inventory until sale</td><td>Amazon buys and owns inventory</td></tr>
+<tr><td>Fulfillment</td><td>FBA or FBM</td><td>Amazon retail fulfillment</td></tr>
+<tr><td>Payment</td><td>Seller receives payouts after Amazon fees</td><td>Vendor invoices Amazon under agreed terms</td></tr>
+<tr><td>Customer-Facing Offer</td><td>Sold by seller, sometimes fulfilled by Amazon</td><td>Sold by Amazon</td></tr>
+<tr><td>Main Advantage</td><td>Control and flexibility</td><td>Wholesale scale and Amazon retail presence</td></tr>
+<tr><td>Main Risk</td><td>Operational complexity and fee management</td><td>Less control and possible margin pressure</td></tr>
+<tr><td>Best Fit</td><td>Brands that want control, agility, and margin visibility</td><td>Brands prepared for wholesale terms and Amazon retail management</td></tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>Main Differences</h2>
+
+<h3>1. Control</h3>
+<p>
+Sellers usually have more control over price, inventory, listing decisions, promotions, and assortment. Vendors give more control to Amazon because Amazon becomes the retailer.
+</p>
+
+<h3>2. Pricing</h3>
+<p>
+Sellers set their own retail prices, while vendors sell to Amazon at a wholesale cost. Amazon then determines the retail price shown to customers.
+</p>
+
+<h3>3. Inventory</h3>
+<p>
+Sellers own their inventory and decide how much to send to FBA or fulfill themselves. Vendors ship inventory based on Amazon purchase orders.
+</p>
+
+<h3>4. Profitability</h3>
+<p>
+Seller profitability depends on retail price, referral fees, FBA or FBM costs, ad spend, returns, storage fees, and discounts.
+</p>
+
+<p>
+Vendor profitability depends on wholesale cost, trade terms, chargebacks, allowances, co-op agreements, and Amazon's ordering behavior.
+</p>
+
+<h3>5. Operations</h3>
+<p>
+Sellers manage marketplace operations directly. Vendors manage wholesale operations, purchase orders, compliance requirements, and Amazon retail relationship dynamics.
+</p>
+
+<h3>6. Customer Perception</h3>
+<p>
+Seller offers may show as sold by the brand or seller, sometimes fulfilled by Amazon. Vendor offers often show as sold by Amazon, which can increase customer trust in some categories.
+</p>
+
+<hr>
+
+<h2>Examples</h2>
+
+<h3>Private Label Seller</h3>
+<p>
+A skincare brand launches through Seller Central, creates its own listings, sends inventory to FBA, controls pricing, runs Sponsored Products campaigns, and tracks ACOS, TACOS, CTR, CVR, and profit margin.
+</p>
+
+<h3>Large Manufacturer Vendor</h3>
+<p>
+A national household brand sells products wholesale to Amazon. Amazon places purchase orders, receives the inventory, sets the retail price, and sells the product directly to customers.
+</p>
+
+<h3>Hybrid Brand</h3>
+<p>
+A brand sells core products to Amazon through Vendor Central but launches new products or bundles through Seller Central to maintain more pricing control and test demand.
+</p>
+
+<h3>Seller Moving Away from Vendor</h3>
+<p>
+A brand starts on Vendor Central but struggles with low wholesale margins, limited pricing control, and inconsistent purchase orders. It moves part of the catalog to Seller Central to improve profitability and control.
+</p>
+
+<hr>
+
+<h2>Best Practices</h2>
+
+<ul>
+<li>Understand whether the brand is operating as 1P, 3P, or hybrid.</li>
+<li>Do not compare Seller and Vendor performance using the same assumptions.</li>
+<li>Analyze margin differently for each model.</li>
+<li>In Seller Central, monitor Buy Box, FBA fees, referral fees, storage, advertising, returns, and account health.</li>
+<li>In Vendor Central, monitor purchase orders, chargebacks, wholesale margin, Amazon retail availability, and vendor terms.</li>
+<li>Use Seller Central when pricing control, agility, and direct marketplace management are priorities.</li>
+<li>Use Vendor Central when wholesale scale and Amazon retail distribution are strategically valuable.</li>
+<li>Be careful with hybrid models because catalog conflicts, pricing conflicts, and channel overlap can happen.</li>
+<li>Keep product content consistent across models.</li>
+<li>Always analyze profitability after operational costs, not only revenue.</li>
+</ul>
+
+<hr>
+
+<h2>Common Mistakes</h2>
+
+<ul>
+<li>Thinking Seller Central and Vendor Central are just two dashboards for the same model.</li>
+<li>Assuming Vendor Central is always better because the product is sold by Amazon.</li>
+<li>Assuming Seller Central is always better because it gives more control.</li>
+<li>Comparing Seller revenue and Vendor revenue without adjusting for wholesale vs retail economics.</li>
+<li>Ignoring Amazon fees in Seller Central.</li>
+<li>Ignoring chargebacks, allowances, and wholesale terms in Vendor Central.</li>
+<li>Running a hybrid model without a clear catalog strategy.</li>
+<li>Letting 1P and 3P offers compete against each other without monitoring pricing and Buy Box impact.</li>
+<li>Assuming Amazon will always reorder inventory from a vendor.</li>
+<li>Believing Vendor Central automatically improves ranking.</li>
+<li>Treating Vendor Central as passive, when it still requires strong account and catalog management.</li>
+</ul>
+
+<hr>
+
+<h2>Did You Know?</h2>
+
+<ul>
+<li>Seller Central is generally open to eligible businesses that want to sell directly to customers on Amazon.</li>
+<li>Vendor Central is invitation-only.</li>
+<li>Seller Central is called the 3P model because the seller is a third-party seller on Amazon Marketplace.</li>
+<li>Vendor Central is called the 1P model because Amazon buys from the vendor and becomes the retailer.</li>
+<li>Some brands use both models at the same time, creating a hybrid Amazon strategy.</li>
+</ul>
+
+<hr>
+
+<h2>Pro Tip</h2>
+
+<p>
+The best model is not the one that looks more official. It is the one that protects the brand's margin, control, operations, and growth strategy.
+</p>
+
+<p>
+Seller Central usually gives more control, but requires stronger operational management. Vendor Central can offer scale and Amazon retail presence, but may reduce pricing control and margin flexibility.
+</p>
+
+<p>
+When choosing between Seller and Vendor, ask:
+<strong>"Does this brand need control, or does it need wholesale scale?"</strong>
+</p>
+
+<hr>
+
+<h2>Related Articles</h2>
+
+<ul>
+<li>Amazon Ecosystem: What Is Amazon?</li>
+<li>Amazon Ecosystem: What Is Amazon Marketplace?</li>
+<li>What Is Seller Central?</li>
+<li>What Is Vendor Central?</li>
+<li>What Is 1P vs 3P on Amazon?</li>
+<li>What Is Fulfillment by Amazon (FBA)?</li>
+<li>What Is the Buy Box?</li>
+<li>Amazon Retail vs Amazon Marketplace</li>
+<li>Amazon Profitability Basics</li>
+<li>Amazon Account Health Basics</li>
+</ul>
+
+`
+},
   {
     id: "seller-central",
     title: "What is Seller Central?",
