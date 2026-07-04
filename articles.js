@@ -330,30 +330,557 @@ Every interaction—from a click to a completed purchase—generates data that h
 
 `
 },
-  {
-    id: "amazon-marketplace",
-    title: "What is Amazon Marketplace?",
-    category: "Amazon Ecosystem",
-    level: "Beginner",
-    readTime: "5 min",
-    summary: "Learn how Amazon Marketplace allows independent sellers and brands to sell products on Amazon.com.",
-    content: `
-      <h3>Definition</h3>
-      <p>Amazon Marketplace is the part of Amazon where third-party sellers list and sell products directly to Amazon customers.</p>
+ {
+  id: "amazon-marketplace",
+  title: "What Is Amazon Marketplace?",
+  category: "Amazon Ecosystem",
+  level: "Beginner",
+  readTime: "8 min",
+  summary: "Understand Amazon Marketplace as the third-party selling system inside Amazon.com where sellers, brands, manufacturers, distributors, and retailers sell directly to customers.",
+  content: `
 
-      <h3>Why It Matters</h3>
-      <p>Many products on Amazon are not sold by Amazon directly. They are sold by independent sellers, brands, distributors or agencies managing client accounts.</p>
+<h3>Category</h3>
+<p>Amazon Ecosystem</p>
 
-      <h3>How It Works</h3>
-      <p>Sellers create listings, manage inventory, set prices, choose fulfillment methods and compete for visibility and sales. Amazon provides the platform, traffic, checkout experience and optional services such as FBA and advertising.</p>
+<h3>Difficulty</h3>
+<p>Beginner</p>
 
-      <h3>Example</h3>
-      <p>A skincare brand can sell its products on Amazon.com using Seller Central, ship inventory to Amazon through FBA and advertise using Sponsored Products.</p>
+<h3>Estimated Reading Time</h3>
+<p>8 minutes</p>
 
-      <h3>Common Mistake</h3>
-      <p>Beginners often assume Amazon owns every product listed on Amazon.com. In reality, many listings are managed by third-party sellers.</p>
-    `
-  },
+<h3>Last Updated</h3>
+<p>July 2026</p>
+
+<hr>
+
+<h2>Summary</h2>
+
+<p>
+Amazon Marketplace is one of the largest digital marketplaces in the world, enabling independent businesses, brands, manufacturers, distributors, and retailers to sell products directly to customers through Amazon.com.
+</p>
+
+<p>
+Rather than owning every product it offers, Amazon provides the infrastructure, catalog, customer traffic, checkout system, fulfillment options, advertising tools, and performance standards that allow third-party sellers to operate at scale.
+</p>
+
+<p>
+Unlike Amazon Retail, where Amazon buys inventory from vendors and resells it, Amazon Marketplace allows sellers to manage their own offers, pricing, inventory, fulfillment method, advertising, and customer experience through Seller Central.
+</p>
+
+<hr>
+
+<h2>Definition</h2>
+
+<p>
+Amazon Marketplace is the e-commerce platform within Amazon.com that enables third-party sellers, also known as <strong>3P sellers</strong>, to sell products directly to Amazon customers.
+</p>
+
+<p>
+These sellers are different from <strong>1P vendors</strong>, which sell products wholesale to Amazon through Vendor Central. In the Marketplace model, the seller owns and manages the commercial offer, while Amazon provides the platform and supporting services.
+</p>
+
+<p>Amazon Marketplace can include:</p>
+
+<ul>
+<li>Brand owners selling their own products</li>
+<li>Private label sellers</li>
+<li>Manufacturers selling direct-to-consumer</li>
+<li>Wholesale sellers</li>
+<li>Authorized resellers</li>
+<li>Distributors</li>
+<li>Retail arbitrage sellers</li>
+<li>Agencies managing seller accounts for clients</li>
+</ul>
+
+<p>
+Amazon Marketplace is not a separate website. It is fully integrated into Amazon.com, meaning customers may see products sold by Amazon and products sold by third-party sellers on the same search results pages and product detail pages.
+</p>
+
+<hr>
+
+<h2>Amazon Marketplace Overview</h2>
+
+<pre>
+                            AMAZON
+
+                    ┌──────────────────────┐
+                    │      Amazon.com      │
+                    └──────────┬───────────┘
+                               │
+        ┌──────────────────────┴──────────────────────┐
+        │                                             │
+ Amazon Retail (1P)                         Amazon Marketplace (3P)
+        │                                             │
+ Amazon owns inventory                    Independent sellers
+ Amazon buys from vendors                 Brands
+ Amazon controls retail offer             Manufacturers
+ Vendor Central                           Distributors
+                                          Resellers
+                                          Seller Central
+</pre>
+
+<p>
+The Marketplace model allows Amazon to expand product selection without owning all inventory directly.
+</p>
+
+<hr>
+
+<h2>Marketplace vs Retail</h2>
+
+<table>
+<thead>
+<tr>
+<th>Amazon Retail</th>
+<th>Amazon Marketplace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Amazon buys inventory from vendors</td>
+<td>Sellers own or control their inventory</td>
+</tr>
+<tr>
+<td>Known as the 1P model</td>
+<td>Known as the 3P model</td>
+</tr>
+<tr>
+<td>Managed through Vendor Central</td>
+<td>Managed through Seller Central</td>
+</tr>
+<tr>
+<td>Amazon acts as the retailer</td>
+<td>The seller acts as the retailer</td>
+</tr>
+<tr>
+<td>Amazon has more control over the retail offer</td>
+<td>Sellers manage pricing, inventory, content, and fulfillment strategy</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>Why It Matters</h2>
+
+<p>
+Amazon Marketplace matters because it is one of the main reasons Amazon has such a large product selection and competitive shopping experience.
+</p>
+
+<p>
+For customers, Marketplace means more product options, more sellers, more price competition, and broader availability.
+</p>
+
+<p>
+For sellers and brands, Marketplace provides access to Amazon's customer base, fulfillment infrastructure, advertising tools, trusted checkout experience, and marketplace data.
+</p>
+
+<p>
+For Amazon, Marketplace expands selection while creating revenue through referral fees, fulfillment fees, storage fees, advertising, subscriptions, and other seller services.
+</p>
+
+<p>
+For Strategists, understanding Marketplace is essential because most Amazon performance analysis happens inside the 3P environment. SEO, PPC, Buy Box performance, inventory health, pricing, reviews, catalog issues, and conversion rate are all directly connected to how Marketplace works.
+</p>
+
+<hr>
+
+<h2>How It Works</h2>
+
+<p>
+Amazon Marketplace connects third-party sellers with Amazon customers.
+</p>
+
+<pre>
+Seller Creates Account
+
+↓
+
+Product Is Listed on Amazon
+
+↓
+
+Offer Is Added to an ASIN
+
+↓
+
+Customer Searches on Amazon
+
+↓
+
+Product Appears in Search Results
+
+↓
+
+Customer Visits Product Detail Page
+
+↓
+
+Customer Chooses an Offer
+
+↓
+
+Order Is Placed
+
+↓
+
+Product Is Fulfilled by FBA or FBM
+
+↓
+
+Customer Receives Product
+
+↓
+
+Review, Return, or Feedback May Follow
+
+↓
+
+Performance Data Affects Future Visibility
+</pre>
+
+<p>
+Sellers manage their business through Seller Central. Seller Central is used to create listings, manage inventory, set prices, handle orders, monitor payments, run ads, review account health, and analyze performance.
+</p>
+
+<p>
+When a seller wants to sell a product, they either create a new ASIN or add an offer to an existing ASIN. If multiple sellers sell the same product, they may compete on the same product detail page.
+</p>
+
+<p>
+In that case, Amazon chooses which seller appears as the main purchase option through the <strong>Featured Offer</strong>, commonly called the <strong>Buy Box</strong>.
+</p>
+
+<p>The seller can fulfill orders in two main ways:</p>
+
+<ul>
+<li><strong>FBA:</strong> Fulfillment by Amazon. Amazon stores, packs, ships, and handles customer service for eligible orders.</li>
+<li><strong>FBM:</strong> Fulfillment by Merchant. The seller manages storage, packing, shipping, and customer service.</li>
+</ul>
+
+<hr>
+
+<h2>How Marketplace Connects to the Amazon Ecosystem</h2>
+
+<pre>
+Marketplace
+
+↓
+
+Catalog
+
+↓
+
+Search
+
+↓
+
+Traffic
+
+↓
+
+Product Detail Page
+
+↓
+
+Conversion
+
+↓
+
+Orders
+
+↓
+
+Reviews
+
+↓
+
+Ranking & Future Visibility
+</pre>
+
+<p>
+Amazon Marketplace is not isolated. It connects with almost every major Amazon system.
+</p>
+
+<ul>
+<li>Marketplace depends on the catalog because products need accurate titles, images, attributes, variations, and backend data.</li>
+<li>It depends on search because customers usually discover products through search results.</li>
+<li>It depends on fulfillment because fast and reliable delivery affects customer experience and conversion.</li>
+<li>It depends on Prime because Prime-eligible offers often have stronger customer appeal.</li>
+<li>It depends on advertising because sellers use Amazon Ads to increase visibility and sales velocity.</li>
+<li>It depends on reviews because customer feedback influences trust and purchase decisions.</li>
+<li>It depends on account health because Amazon requires sellers to meet operational standards.</li>
+</ul>
+
+<p>
+That is why Marketplace strategy is never only about uploading products. It is about managing a connected performance system.
+</p>
+
+<hr>
+
+<h2>Marketplace Success Factors</h2>
+
+<table>
+<thead>
+<tr>
+<th>Factor</th>
+<th>Why It Matters</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Catalog Quality</td>
+<td>Helps Amazon understand and classify the product correctly</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Pricing</td>
+<td>Affects competitiveness, conversion, and Buy Box performance</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Buy Box / Featured Offer</td>
+<td>Determines which seller receives the default purchase option</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Inventory</td>
+<td>Supports sales momentum, ranking stability, and advertising efficiency</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Reviews</td>
+<td>Influence trust, conversion, and competitiveness</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Fulfillment</td>
+<td>Affects delivery promise, Prime eligibility, and customer experience</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Advertising</td>
+<td>Increases visibility and can support sales velocity</td>
+<td>Medium–High</td>
+</tr>
+<tr>
+<td>SEO</td>
+<td>Improves relevance and organic discoverability</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Seller Performance</td>
+<td>Impacts account health, eligibility, and operational trust</td>
+<td>High</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>Key Components</h2>
+
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Purpose</th>
+<th>Primary Users</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Amazon Marketplace</td>
+<td>Platform where third-party sellers sell products directly to Amazon customers</td>
+<td>Sellers, Brands, Customers</td>
+</tr>
+<tr>
+<td>Third-Party Seller</td>
+<td>Independent business selling through Amazon Marketplace</td>
+<td>Sellers</td>
+</tr>
+<tr>
+<td>Seller Central</td>
+<td>Dashboard used to manage listings, pricing, inventory, orders, ads, payments, and account health</td>
+<td>Sellers</td>
+</tr>
+<tr>
+<td>ASIN</td>
+<td>Amazon's unique product identifier for each product detail page</td>
+<td>Sellers & Amazon</td>
+</tr>
+<tr>
+<td>Product Detail Page</td>
+<td>Page where customers evaluate a product and make purchase decisions</td>
+<td>Customers</td>
+</tr>
+<tr>
+<td>Offer</td>
+<td>The seller-specific selling option attached to an ASIN</td>
+<td>Sellers</td>
+</tr>
+<tr>
+<td>Featured Offer / Buy Box</td>
+<td>Main purchase option shown on the product detail page</td>
+<td>Sellers & Customers</td>
+</tr>
+<tr>
+<td>FBA</td>
+<td>Fulfillment model where Amazon handles storage, shipping, customer service, and returns</td>
+<td>Sellers</td>
+</tr>
+<tr>
+<td>FBM</td>
+<td>Fulfillment model where the seller handles fulfillment directly</td>
+<td>Sellers</td>
+</tr>
+<tr>
+<td>Referral Fee</td>
+<td>Commission Amazon charges sellers for each sale</td>
+<td>Sellers</td>
+</tr>
+<tr>
+<td>Account Health</td>
+<td>Performance area that tracks seller compliance and operational quality</td>
+<td>Sellers</td>
+</tr>
+<tr>
+<td>Seller Feedback</td>
+<td>Customer feedback about the seller's service</td>
+<td>Sellers</td>
+</tr>
+<tr>
+<td>Product Reviews</td>
+<td>Customer reviews about the product itself</td>
+<td>Customers & Sellers</td>
+</tr>
+<tr>
+<td>Amazon Ads</td>
+<td>Advertising tools used to promote Marketplace products</td>
+<td>Sellers & Brands</td>
+</tr>
+<tr>
+<td>Brand Registry</td>
+<td>Program that helps brand owners protect and manage their brand presence</td>
+<td>Brand Owners</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>Examples</h2>
+
+<h3>Private Label Brand</h3>
+<p>
+A brand creates its own product, registers its trademark, enrolls in Brand Registry, lists the product on Amazon Marketplace, sends inventory to FBA, and runs Sponsored Products campaigns to generate traffic.
+</p>
+
+<h3>Wholesale Seller</h3>
+<p>
+A seller purchases branded products from authorized distributors and resells them on Amazon Marketplace. If the ASIN already exists, the seller adds an offer to the existing product detail page instead of creating a new listing.
+</p>
+
+<h3>Manufacturer Selling Direct</h3>
+<p>
+A U.S. manufacturer decides to sell directly to customers instead of relying only on retail partners. The company uses Seller Central, creates optimized listings, manages inventory, and uses Amazon Ads to build demand.
+</p>
+
+<h3>Multi-Seller ASIN</h3>
+<p>
+Several sellers offer the same product on one ASIN. They compete for the Featured Offer based on factors such as price, delivery speed, availability, seller performance, and fulfillment method.
+</p>
+
+<hr>
+
+<h2>Best Practices</h2>
+
+<ul>
+<li>Understand the difference between Amazon Retail and Amazon Marketplace.</li>
+<li>Keep product listings accurate, complete, and compliant.</li>
+<li>Optimize titles, bullet points, images, A+ Content, and backend attributes.</li>
+<li>Choose FBA or FBM based on margin, logistics capacity, and customer expectations.</li>
+<li>Monitor Featured Offer eligibility and Buy Box performance.</li>
+<li>Keep inventory available to avoid losing ranking and sales momentum.</li>
+<li>Track account health regularly.</li>
+<li>Use Amazon Ads only after the Product Detail Page is ready to convert.</li>
+<li>Analyze profitability after Amazon fees, fulfillment costs, ad spend, returns, and discounts.</li>
+<li>Protect brand presence through Brand Registry when eligible.</li>
+<li>Watch competitor offers, pricing, reviews, and content quality.</li>
+<li>Separate product reviews from seller feedback when diagnosing performance.</li>
+</ul>
+
+<hr>
+
+<h2>Common Mistakes</h2>
+
+<ul>
+<li>Thinking Amazon Marketplace and Amazon Retail are the same thing.</li>
+<li>Creating duplicate ASINs instead of matching existing products correctly.</li>
+<li>Ignoring Buy Box eligibility.</li>
+<li>Running ads while the product page has weak images, poor reviews, or unclear content.</li>
+<li>Choosing FBA without calculating storage fees, fulfillment fees, and margin.</li>
+<li>Choosing FBM without being able to meet delivery and customer service expectations.</li>
+<li>Letting inventory run out during a sales or advertising push.</li>
+<li>Competing only on price and damaging profitability.</li>
+<li>Ignoring account health warnings.</li>
+<li>Assuming ranking depends only on keywords.</li>
+<li>Treating Marketplace as a passive sales channel instead of an active operating system.</li>
+</ul>
+
+<hr>
+
+<h2>Did You Know?</h2>
+
+<ul>
+<li>More than 60% of sales in Amazon's store come from independent sellers.</li>
+<li>A single product detail page can have multiple sellers competing for the same sale.</li>
+<li>Sellers can use either FBA or FBM depending on their fulfillment strategy.</li>
+<li>Winning visibility on Amazon Marketplace depends on both relevance and performance.</li>
+<li>Marketplace success depends on the full offer, not only the listing content.</li>
+</ul>
+
+<hr>
+
+<h2>Pro Tip</h2>
+
+<p>
+<strong>Amazon Marketplace is not a catalog — it is a competitive operating system.</strong>
+</p>
+
+<p>
+Every product competes continuously for customer attention, Buy Box ownership, advertising placements, search visibility, pricing, inventory availability, and conversion.
+</p>
+
+<p>
+A product may have good SEO and still fail if the price is not competitive, the offer does not win the Buy Box, inventory is unstable, reviews are weak, or the fulfillment promise is poor.
+</p>
+
+<p>
+When diagnosing Marketplace performance, ask:
+<strong>"Is the problem the listing, the offer, the competition, the fulfillment, the traffic, or the conversion?"</strong>
+</p>
+
+<hr>
+
+<h2>Related Articles</h2>
+
+<ul>
+<li>Amazon Ecosystem: What Is Amazon?</li>
+<li>First-Party vs Third-Party Selling</li>
+<li>What Is Seller Central?</li>
+<li>What Is Vendor Central?</li>
+<li>What Is an ASIN?</li>
+<li>What Is the Buy Box?</li>
+<li>What Is Fulfillment by Amazon (FBA)?</li>
+<li>What Is Fulfillment by Merchant (FBM)?</li>
+<li>Amazon SEO Basics</li>
+<li>Introduction to Amazon Ads</li>
+<li>Amazon Account Health Basics</li>
+</ul>
+
+`
+},
 
   {
     id: "seller-vs-vendor",
