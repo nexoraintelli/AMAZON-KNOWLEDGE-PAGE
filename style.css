@@ -155,7 +155,7 @@ body {
   width: 100%;
   padding: 17px 18px;
   border: 1px solid var(--border);
-  border-radius: 16px;
+  border-radius: 20px;
   font-size: 15px;
   outline: none;
   background: var(--surface);
