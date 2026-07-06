@@ -262,8 +262,7 @@ body {
   display: inline-block;
   background: var(--primary-soft);
   color: var(--primary);
-  padding: 6px 9px;
-  border-radius: 999px;
+  padding: 6px 20px;
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 14px;
