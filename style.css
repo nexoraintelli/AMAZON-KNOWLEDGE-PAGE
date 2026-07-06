@@ -206,7 +206,6 @@ body {
 .hero {
   background: linear-gradient(135deg, var(--surface), var(--surface-soft));
   border: 1px solid var(--border);
-  border-radius: 26px;
   padding: 34px;
   box-shadow: var(--shadow);
   margin-bottom: 28px;
