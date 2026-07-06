@@ -94,7 +94,6 @@ body {
   color: var(--sidebar-text);
   text-align: left;
   padding: 11px 12px;
-  border-radius: 11px;
   cursor: pointer;
   font-size: 14px;
   transition: 0.2s;
