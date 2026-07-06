@@ -421,7 +421,6 @@ th {
   background: var(--surface);
   color: var(--text);
   padding: 10px 14px;
-  border-radius: 999px;
   cursor: pointer;
   box-shadow: var(--shadow);
   font-weight: 600;
