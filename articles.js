@@ -1262,35 +1262,379 @@ When choosing between Seller and Vendor, ask:
 `
 },
   {
-    id: "seller-central",
-    title: "What is Seller Central?",
-    category: "Seller Central",
-    level: "Beginner",
-    readTime: "5 min",
-    summary: "Learn what Seller Central is and why it is the main platform for Amazon sellers.",
-    content: `
-      <h3>Definition</h3>
-      <p>Seller Central is the main hub where Amazon sellers manage their selling account, products, prices, inventory, orders, reports and business operations.</p>
+  id: "seller-central",
+  title: "What Is Seller Central?",
+  category: "Seller Central",
+  level: "Beginner",
+  readTime: "9 min",
+  summary: "Learn what Seller Central is, how it works, and why it is the operational center for third-party sellers on Amazon Marketplace.",
+  content: `
 
-      <h3>Why It Matters</h3>
-      <p>Most operational and strategic actions for a seller happen inside Seller Central: editing listings, checking reports, managing inventory, monitoring account health and accessing growth tools.</p>
+<h3>Category</h3>
+<p>Seller Central</p>
 
-      <h3>Main Areas</h3>
-      <ul>
-        <li>Catalog</li>
-        <li>Inventory</li>
-        <li>Pricing</li>
-        <li>Orders</li>
-        <li>Advertising</li>
-        <li>Reports</li>
-        <li>Performance</li>
-        <li>Brands</li>
-      </ul>
+<h3>Difficulty</h3>
+<p>Beginner</p>
 
-      <h3>Example</h3>
-      <p>If you need to update a product title, backend keywords or bullet points, you usually do it through Seller Central.</p>
-    `
-  },
+<h3>Estimated Reading Time</h3>
+<p>9 minutes</p>
+
+<h3>Last Updated</h3>
+<p>July 2026</p>
+
+<hr>
+
+<h2>Summary</h2>
+
+<p>
+Seller Central is the main platform used by third-party sellers to manage their Amazon business.
+</p>
+
+<p>
+Through Seller Central, sellers can list products, manage inventory, set prices, fulfill orders, monitor account health, run promotions, access advertising tools, review payments, and analyze business performance.
+</p>
+
+<p>
+In the Amazon ecosystem, Seller Central is the operational center for the 3P model, where sellers sell directly to customers through Amazon Marketplace.
+</p>
+
+<hr>
+
+<h2>Definition</h2>
+
+<p>
+Seller Central is Amazon's business management platform for third-party sellers.
+</p>
+
+<p>
+A seller gains access to Seller Central after registering for an Amazon selling account and choosing a selling plan, usually Individual or Professional.
+</p>
+
+<p>
+Seller Central is different from Vendor Central. In Seller Central, the seller sells directly to customers. In Vendor Central, the brand sells products wholesale to Amazon, and Amazon resells them to customers.
+</p>
+
+<p><strong>In simple terms:</strong></p>
+
+<ul>
+<li><strong>Seller Central</strong> = platform for third-party sellers.</li>
+<li><strong>Vendor Central</strong> = platform for first-party vendors.</li>
+<li><strong>Seller Central user</strong> = sells to the customer.</li>
+<li><strong>Vendor Central user</strong> = sells to Amazon.</li>
+</ul>
+
+<hr>
+
+<h2>Seller Central Overview</h2>
+
+<pre>
+SELLER CENTRAL
+
+|
++-- Catalog
+|   +-- Product Listings
+|   +-- Pricing
+|   +-- Variations
+|   +-- Content
+|
++-- Operations
+|   +-- Inventory
+|   +-- Orders
+|   +-- Returns
+|   +-- Account Health
+|
++-- Growth
+    +-- Ads
+    +-- Promotions
+    +-- Brand Tools
+    +-- Analytics
+
+Connected to: Amazon Marketplace
+</pre>
+
+<p>
+Seller Central connects the product, the offer, the inventory, the customer order, and the seller's business performance into one dashboard.
+</p>
+
+<hr>
+
+<h2>Why It Matters</h2>
+
+<p>
+Seller Central matters because it is where most Amazon Marketplace operations happen.
+</p>
+
+<p>
+For sellers, it is the control center of the business. A seller cannot effectively manage Amazon sales without understanding how Seller Central works.
+</p>
+
+<p>
+For brands, Seller Central provides more control than Vendor Central in areas such as retail pricing, product listings, inventory planning, fulfillment method, promotions, advertising, catalog strategy, and profitability analysis.
+</p>
+
+<p>
+For Strategists, Seller Central is important because performance issues usually appear inside this platform. If an ASIN is not growing, the cause may be visible through Seller Central data: inactive listings, Buy Box issues, inventory problems, suppressed content, poor account health, high fees, weak conversion, or inefficient advertising.
+</p>
+
+<p>
+Seller Central is not just a dashboard. It is the operating system of a 3P Amazon business.
+</p>
+
+<hr>
+
+<h2>How It Works</h2>
+
+<p>
+Seller Central works by giving sellers access to the tools needed to sell products on Amazon Marketplace.
+</p>
+
+<pre>
+Seller Creates Amazon Selling Account
+
+↓
+
+Seller Accesses Seller Central
+
+↓
+
+Seller Lists or Matches Products
+
+↓
+
+Seller Sets Price and Offer Details
+
+↓
+
+Seller Chooses FBA or FBM
+
+↓
+
+Customer Buys Product on Amazon
+
+↓
+
+Order Is Fulfilled
+
+↓
+
+Amazon Deducts Fees
+
+↓
+
+Seller Receives Payment
+
+↓
+
+Seller Monitors Performance
+</pre>
+
+<p>
+After creating an account, sellers configure business information, payment details, shipping settings, tax information, notification preferences, login settings, user permissions, and optional FBA settings.
+</p>
+
+<p>
+Once the account is configured, sellers use Seller Central to manage daily operations.
+</p>
+
+<hr>
+
+<h2>Key Components</h2>
+
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Purpose</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Catalog</td><td>Create, match, edit, and manage product listings</td><td>Product content affects visibility and conversion</td></tr>
+<tr><td>Manage Inventory</td><td>View listings, stock status, pricing, and fulfillment details</td><td>Helps prevent stockouts and listing issues</td></tr>
+<tr><td>Add Products</td><td>Create a new listing or add an offer to an existing ASIN</td><td>Essential for launching or expanding catalog</td></tr>
+<tr><td>Add Products via Upload</td><td>Bulk upload tool using files and templates</td><td>Useful for large catalogs</td></tr>
+<tr><td>Pricing</td><td>Set or adjust product prices</td><td>Impacts competitiveness, Buy Box, and margin</td></tr>
+<tr><td>Automate Pricing</td><td>Set dynamic pricing rules</td><td>Helps sellers react to competitive pricing</td></tr>
+<tr><td>FBA</td><td>Fulfillment by Amazon</td><td>Amazon stores, ships, and handles customer service</td></tr>
+<tr><td>FBM</td><td>Fulfillment by Merchant</td><td>Seller handles fulfillment directly</td></tr>
+<tr><td>Manage Orders</td><td>Monitor and manage customer orders</td><td>Critical for FBM operations</td></tr>
+<tr><td>Manage Returns</td><td>View and respond to return requests</td><td>Affects customer experience and operations</td></tr>
+<tr><td>Account Health</td><td>Tracks customer service, policy compliance, and shipping performance</td><td>Poor account health can limit or suspend selling ability</td></tr>
+<tr><td>Payments Dashboard</td><td>Shows sales proceeds, expenses, refunds, and disbursements</td><td>Needed for financial control</td></tr>
+<tr><td>Advertising</td><td>Promote products through Amazon Ads</td><td>Supports traffic and sales growth</td></tr>
+<tr><td>Promotions, Deals & Coupons</td><td>Discount and promotional tools</td><td>Helps drive conversion and sales velocity</td></tr>
+<tr><td>Brand Registry Tools</td><td>A+ Content, Brand Analytics, Vine, Stores, and brand features</td><td>Helps brand owners improve content, trust, and insights</td></tr>
+<tr><td>Seller Support</td><td>Support channel for operational issues and cases</td><td>Needed for troubleshooting</td></tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>Main Seller Central Functions</h2>
+
+<h3>1. Listing Products</h3>
+<p>
+Sellers can create new product listings, add offers to existing ASINs, edit product information, manage variations, and update product detail pages. This is where catalog quality begins.
+</p>
+
+<h3>2. Managing Inventory</h3>
+<p>
+Seller Central allows sellers to monitor inventory status, available units, stranded inventory, inactive listings, FBA shipments, and stock availability.
+</p>
+
+<h3>3. Setting Prices</h3>
+<p>
+Sellers can set static prices manually or use automated pricing rules. Pricing affects Buy Box competitiveness, conversion rate, margin, promotions, sales velocity, and customer perception.
+</p>
+
+<h3>4. Choosing Fulfillment</h3>
+<p>
+Seller Central supports FBA and FBM. The fulfillment method affects delivery promise, Prime eligibility, fees, operations, and customer experience.
+</p>
+
+<h3>5. Monitoring Orders and Returns</h3>
+<p>
+For FBM sellers, Seller Central is where orders must be managed carefully. For FBA sellers, Amazon handles much of the fulfillment process, but sellers still need to monitor returns, refunds, inventory performance, and fees.
+</p>
+
+<h3>6. Tracking Account Health</h3>
+<p>
+Account Health tracks performance and compliance indicators such as customer service, shipping performance, policy violations, and product compliance.
+</p>
+
+<h3>7. Reviewing Payments and Fees</h3>
+<p>
+The Payments Dashboard helps sellers understand sales proceeds, expenses, refunds, and disbursements. Amazon revenue is not the same as profit.
+</p>
+
+<h3>8. Advertising and Promotions</h3>
+<p>
+Seller Central connects sellers to advertising and promotional tools, including Sponsored Products, Sponsored Brands, Sponsored Display, Coupons, Deals, Promotions, Brand Stores, and A+ Content when eligible.
+</p>
+
+<hr>
+
+<h2>Examples</h2>
+
+<h3>New Seller</h3>
+<p>
+A small business creates a Seller Central account, lists its first product, sets a retail price, chooses FBA, sends inventory to Amazon, and starts monitoring sales and account health.
+</p>
+
+<h3>Brand Owner</h3>
+<p>
+A skincare brand uses Seller Central to manage listings, create A+ Content, run Sponsored Products campaigns, monitor Brand Analytics, and improve conversion rate.
+</p>
+
+<h3>Wholesale Seller</h3>
+<p>
+A reseller adds offers to existing ASINs, manages pricing, monitors Buy Box eligibility, tracks inventory, and fulfills through FBA.
+</p>
+
+<h3>FBM Seller</h3>
+<p>
+A seller handles its own shipping through FBM. It uses Seller Central to manage orders, confirm shipments, handle returns, and protect account health.
+</p>
+
+<hr>
+
+<h2>Best Practices</h2>
+
+<ul>
+<li>Configure account settings correctly before launching products.</li>
+<li>Keep product listings complete, accurate, and compliant.</li>
+<li>Monitor Account Health frequently.</li>
+<li>Track inventory availability to avoid stockouts.</li>
+<li>Review inactive, suppressed, or stranded listings.</li>
+<li>Analyze profitability after all Amazon fees.</li>
+<li>Use FBA when fast delivery and Prime eligibility are important.</li>
+<li>Use FBM only when fulfillment operations can meet Amazon's standards.</li>
+<li>Monitor Buy Box eligibility and Featured Offer performance.</li>
+<li>Use advertising only after the listing is ready to convert.</li>
+<li>Separate product performance issues from account-level issues.</li>
+<li>Check Payments Dashboard regularly.</li>
+<li>Use Brand Registry tools when eligible.</li>
+<li>Document recurring issues and case IDs when contacting Seller Support.</li>
+</ul>
+
+<hr>
+
+<h2>Common Mistakes</h2>
+
+<ul>
+<li>Thinking Seller Central is only for uploading products.</li>
+<li>Ignoring Account Health until there is a warning.</li>
+<li>Running ads before fixing listing quality.</li>
+<li>Letting inventory run out during active campaigns.</li>
+<li>Confusing product reviews with seller feedback.</li>
+<li>Ignoring Amazon fees when calculating profitability.</li>
+<li>Creating duplicate ASINs instead of matching existing listings correctly.</li>
+<li>Using FBM without strong shipping processes.</li>
+<li>Not checking suppressed or inactive listings.</li>
+<li>Assuming FBA automatically fixes all operational problems.</li>
+<li>Giving too many users unrestricted account access.</li>
+<li>Treating Seller Support as the first solution instead of diagnosing the issue first.</li>
+</ul>
+
+<hr>
+
+<h2>Did You Know?</h2>
+
+<ul>
+<li>Seller Central is available to registered Amazon sellers.</li>
+<li>Sellers can access Seller Central from desktop or through the Amazon Seller app.</li>
+<li>Some Seller Central tools depend on whether the seller has an Individual or Professional selling plan.</li>
+<li>Some brand tools are available only to sellers connected to a brand enrolled in Brand Registry.</li>
+<li>Seller Central includes tools for listing, pricing, fulfillment, advertising, payments, account health, and support.</li>
+<li>Seller University is Amazon's free educational resource for learning listing, pricing, fulfillment, advertising, A+ Content, and Brand Analytics.</li>
+</ul>
+
+<hr>
+
+<h2>Pro Tip</h2>
+
+<p>
+Seller Central should be managed like a business control room, not just a listing dashboard. When an ASIN is not performing, do not look only at keywords or ads.
+</p>
+
+<p><strong>Check the full system:</strong></p>
+
+<ul>
+<li>Is the listing active?</li>
+<li>Is the offer eligible for the Buy Box?</li>
+<li>Is inventory available?</li>
+<li>Is the price competitive?</li>
+<li>Is the fulfillment method supporting conversion?</li>
+<li>Are there account health issues?</li>
+<li>Are fees damaging margin?</li>
+<li>Is advertising sending traffic to a page that can convert?</li>
+</ul>
+
+<p>
+The strongest Amazon operators know how to read Seller Central as a diagnostic system.
+</p>
+
+<hr>
+
+<h2>Related Articles</h2>
+
+<ul>
+<li>Amazon Ecosystem: What Is Amazon?</li>
+<li>Amazon Ecosystem: What Is Amazon Marketplace?</li>
+<li>Seller vs Vendor</li>
+<li>What Is Vendor Central?</li>
+<li>What Is 1P vs 3P on Amazon?</li>
+<li>What Is an ASIN?</li>
+<li>What Is the Buy Box?</li>
+<li>What Is Fulfillment by Amazon (FBA)?</li>
+<li>What Is Fulfillment by Merchant (FBM)?</li>
+<li>Amazon Account Health Basics</li>
+<li>Amazon SEO Basics</li>
+<li>Introduction to Amazon Ads</li>
+</ul>
+
+`
+},
 
   {
     id: "fba",
